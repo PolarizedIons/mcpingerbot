@@ -44,7 +44,6 @@ public class Pinger {
             Thread.sleep(100);
             count += 1;
             if (count > 500) {
-                System.out.println(count);
                 return null;
             }
         }
@@ -55,11 +54,5 @@ public class Pinger {
         }
 
         return new ResponsePacket().read(respOs.toByteArray());
-    }
-
-
-    public static void main(String[] args) {
-        System.out.println(new Pinger("s.nork.club:25565").ping());
-        System.out.println(new Pinger("s.nork.club:25566").ping());
     }
 }
