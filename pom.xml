@@ -32,7 +32,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        net.polarizedions.jamesbot.core.Bot
+                                        net.polarizedions.mcpinger.Bot
                                     </mainClass>
                                 </manifest>
                             </archive>
